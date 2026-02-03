@@ -164,7 +164,6 @@ Add these screenshots in a folder named `/screenshots`:
 ![Swagger](screenshots/swagger.png)
 ![Honeypot](screenshots/honeypot.png)
 ![Profile](screenshots/profile.png)
-![Dashboard](screenshots/dashboard.png)
 ```
 
 ---
