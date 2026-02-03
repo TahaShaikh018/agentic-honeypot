@@ -156,15 +156,13 @@ uvicorn app.main:app --host 0.0.0.0 --port 10000
 
 ---
 
-
-```md
 ## 📸 Screenshots
 
-![Swagger API](screenshots/swagger.png)  
-![Honeypot Interaction](screenshots/honeypot.png)  
+![Swagger API](screenshots/swagger.png)
+![Honeypot Interaction](screenshots/honeypot.png)
 ![Scammer Profile](screenshots/profile.png)
 
----
+```
 
 ---
 
@@ -191,4 +189,3 @@ Agentic AI & Cybersecurity Developer
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
-
