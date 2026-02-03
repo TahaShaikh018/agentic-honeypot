@@ -162,7 +162,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 10000
 ![Honeypot Interaction](screenshots/honeypot.png)
 ![Scammer Profile](screenshots/profile.png)
 
-```
+
 
 ---
 
