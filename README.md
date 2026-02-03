@@ -156,15 +156,15 @@ uvicorn app.main:app --host 0.0.0.0 --port 10000
 
 ---
 
+
+```md
 ## 📸 Screenshots
 
-Add these screenshots in a folder named `/screenshots`:
+![Swagger API](screenshots/swagger.png)  
+![Honeypot Interaction](screenshots/honeypot.png)  
+![Scammer Profile](screenshots/profile.png)
 
-```markdown
-![Swagger](screenshots/swagger.png)
-![Honeypot](screenshots/honeypot.png)
-![Profile](screenshots/profile.png)
-```
+---
 
 ---
 
