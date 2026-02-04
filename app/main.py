@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, Response
 from app.auth import verify_api_key
 from app.sessions import get_session
 from app.agent_brain import honeypot_reply
@@ -23,9 +23,9 @@ Features:
     version="1.0.0"
 )
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
-    return {"status": "alive"}
+    return {"status": "ok", "service": "agentic-honeypot"}
 
 @app.post("/honeypot")
 def honeypot_endpoint(payload: dict, api_key: str = Depends(verify_api_key)):
