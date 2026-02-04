@@ -23,6 +23,10 @@ Features:
     version="1.0.0"
 )
 
+@app.get("/")
+def root():
+    return {"status": "alive"}
+
 @app.post("/honeypot")
 def honeypot_endpoint(payload: dict, api_key: str = Depends(verify_api_key)):
     session_id = payload.get("sessionId")
